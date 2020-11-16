@@ -125,7 +125,7 @@ function run(db) {
     app.get('/success', (request, reply) => {
         const schnackDomain = getSchnackDomain();
         reply.send(`<script>
-            document.domain = '${schnackDomain}';
+            document.domain = 'https://peaceful-atoll-80778.herokuapp.com';
             window.opener.__schnack_wait_for_oauth();
         </script>`);
     });
