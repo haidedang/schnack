@@ -186,7 +186,7 @@ function run(db) {
         );
     }
 
-    var server = app.listen(config.get('port'), config.get('host'), err => {
+    var server = app.listen(process.env.PORT || config.get('port'), config.get('host'), err => {
         if (err) throw err;
         console.error(`server listening on ${server.address().port}`);
     });
