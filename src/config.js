@@ -11,7 +11,7 @@ nconf
     .env()
     .defaults({
         admins: [1],
-        schnack_host: `http://localhost`,
+        schnack_host: `https://peaceful-atoll-80778.herokuapp.com`,
         database: {
             comments: 'comments.db',
             sessions: 'sessions.db'
