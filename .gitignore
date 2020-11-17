@@ -1,7 +1,6 @@
 node_modules/*
 yarn.lock
 *.db
-config.json
 npm-debug.log
 *.sublime-*
 .DS_Store

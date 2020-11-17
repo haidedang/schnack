@@ -5,7 +5,7 @@
         "comments": "comments.db",
         "sessions": "sessions.db"
     },
-    "port": "${process.env.PORT}",
+    "port": 3000,
     "admins": [1],
     "oauth": {
         "secret": "xxxxx",
